@@ -26,6 +26,7 @@ You can (and probably should) skip this part.
 
 ```
 sudo chmod +x install_tensorrt.sh
+sudo ./install_tensorrt.sh
 ```
 
 ## Install Tensorflow
