@@ -6,7 +6,6 @@ First, use it at your own risk even though it won't break your system. Worst cas
 
 **Important: Make sure your nvidia driver is the correct one. One way is to ensure that the driver version matches with the one that is used during the installation of cuda drivers.
 If not, you might have to completely remove nvidia driver and reinstall it**
-As of now the driver version is `nvidia-driver-535.86.10`
 
 ### Uninstall drivers
 
