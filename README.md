@@ -24,5 +24,22 @@ sudo ./install_cuda_gpu_drivers_ubuntu.sh
 ### Install Tensorrt (Optional)
 You can (and probably should) skip this part.
 
+```
+sudo chmod +x install_tensorrt.sh
+```
+
+## Install Tensorflow
+
+Remember to not use `sudo` for `install_tf.sh`. This is a command for pip install so using `sudo` might give errors or lead to uncertain results.
+```
+sudo chmod +x install_tf.sh
+./install_tf.sh
+```
+
 ## Mandatory
 Make sure to run remove cuda dependency script.
+
+```
+sudo chmod +x remove_cuda_dependency_ubuntu.sh
+sudo ./remove_cuda_dependency_ubuntu.sh
+```
