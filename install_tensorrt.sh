@@ -1,4 +1,9 @@
 cd tensorrt-dependencies-ubuntu/
+
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/libnvinfer8_8.6.0.12-1+cuda11.8_amd64.deb
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/libnvinfer-dev_8.6.0.12-1+cuda11.8_amd64.deb
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/libnvinfer-samples_8.6.0.12-1+cuda11.8_all.deb
+
 sudo dpkg -i libnvinfer8_8.6.0.12-1+cuda11.8_amd64.deb
 sudo dpkg -i libnvparsers8_8.6.0.12-1+cuda11.8_amd64.deb
 sudo dpkg -i libnvonnxparsers8_8.6.0.12-1+cuda11.8_amd64.deb
