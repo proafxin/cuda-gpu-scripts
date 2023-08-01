@@ -13,3 +13,6 @@ sudo ./uninstall_cuda_driver_ubuntu.sh
 sudo chmod +x install_cuda_gpu_drivers_ubuntu.sh
 sudo ./install_cuda_gpu_drivers_ubuntu.sh
 ```
+
+### Install Tensorrt (Optional)
+You can (and probably should) skip this part.
