@@ -38,7 +38,7 @@ sudo chmod +x install_tf.sh
 ```
 
 ## Mandatory
-Make sure to run remove cuda dependency script.
+Make sure to run remove cuda dependency script. Otherwise if you run commands like `sudo apt upgrade` you will also update cuda packages to their latest versions and have 12+ version. Those are not compatible for cuda gpu support in tensorflow.
 
 ```
 sudo chmod +x remove_cuda_dependency_ubuntu.sh
