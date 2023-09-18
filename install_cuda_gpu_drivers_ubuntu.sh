@@ -4,7 +4,7 @@ sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt update
 sudo apt list cuda -a
 sudo apt install cuda-11-8 -y
-/usr/local/cuda-11.8/bin/
+
 export PATH=/usr/local/cuda-11.8/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH
 git clone https://github.com/NVIDIA/cuda-samples.git
