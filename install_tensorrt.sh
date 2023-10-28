@@ -1,4 +1,6 @@
-cd tensorrt-dependencies-ubuntu/
+#!/usr/bin/bash
+
+cd tensorrt-dependencies-ubuntu/ || exit
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/libnvinfer8_8.6.0.12-1+cuda11.8_amd64.deb
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/libnvinfer-dev_8.6.0.12-1+cuda11.8_amd64.deb
@@ -24,6 +26,6 @@ sudo dpkg -i libnvinfer-bin_8.6.0.12-1+cuda11.8_amd64.deb
 sudo dpkg -i libnvinfer-samples_8.6.0.12-1+cuda11.8_all.deb
 sudo apt list python3-libnvinfer -a
 sudo apt install python3-libnvinfer=8.6.0.12-1+cuda11.8
-cd
+cd || exit
 sudo apt list tensorrt -a
 sudo apt install tensorrt=8.6.0.12-1+cuda11.8
